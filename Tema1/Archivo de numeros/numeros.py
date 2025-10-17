@@ -41,6 +41,9 @@ def main():
     cantNum = cantNumMayoresPromedio(lista, promedio)
     listaPares = listaNumPares(lista)
 
+    for num in lista:
+        print(num)
+
     print("El promedio es de todos los números es:", promedio)
     print("La cantidad de números mayores al promedio es:", cantNum)
     print("La lista de números pares es:")
